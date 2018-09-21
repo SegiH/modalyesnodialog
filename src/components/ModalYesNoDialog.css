@@ -1,0 +1,14 @@
+/* Modal dialog header */
+#alert-dialog-title > h2 > span {
+     font-size: 2.0em !important;
+}
+
+/* Modal dialog description text */
+#alert-dialog-description {
+     font-size: 1.5em !important;
+}
+
+/* Modal dialog button text */
+#alert-dialog button {
+     font-size: 100% !important;
+}
