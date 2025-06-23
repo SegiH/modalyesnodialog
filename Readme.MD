@@ -1,4 +1,4 @@
-This project was created by me because I couldn't find an easy way to create a simple yes or no modal dialog.
+This project was created by me because I couldn't find an easy way to create a simple and nice looking yes or no modal dialog.
 
 This package uses Material-UI but only imports the necessary components to keep the size down.
 
@@ -46,11 +46,13 @@ Usage:
      - description: The message that you want to display
      - firstButtonText (optional): The text of the first button. If not supplied, defaults to No
      - secondButtonText (optional): The text of the second. If not supplied, defaults to Yes
-     - eventHandler: The event handler
+     - firstButtonEventHandler: The event handler for the first button (usually the ok button)
+	 - secondButtonEventHandler: The event handler for the second button (usuallu the cancel button)
      
 	 Make sure not to put the <ModalYesNoDialog> component inside of another component in render() because the modal dialog may not appear.
 	 
 	 Version history:
 
+     0.2 Update dependencies, documentation and npm audit fixes.  Update button style
      0.1.17 Updated to Material UI 3. Fixed bug when rendering buttons
-	 0.1.11 Fixed Babel module loading to support Jest and Enazyme unit tests
+	 0.1.11 Fixed Babel module loading to support Jest and Enzyme unit tests
