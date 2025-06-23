@@ -21,11 +21,11 @@ export const ModalYesNoDialog = (props) => {
 
                <DialogActions>
                     {typeof props.firstButtonText !== 'undefined' &&
-                         <Button onClick={props.eventHandler} color="primary">{props.firstButtonText}</Button>
+                         <Button onClick={props.firstButtonEventHandler} color="primary">{props.firstButtonText}</Button>
                     }
 
                     {typeof props.secondButtonText !== 'undefined' &&
-                         <Button onClick={props.eventHandler} color="primary">{props.secondButtonText}</Button>
+                         <Button onClick={props.secondButtonEventHandler} color="primary">{props.secondButtonText}</Button>
                     }
                </DialogActions>
           </Dialog>
