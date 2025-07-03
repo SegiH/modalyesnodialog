@@ -17,7 +17,9 @@ export const App = () => {
 
     return (
         <span>
-            <span>ModalYesNoDialog example</span>
+            {!isVisible &&
+                <span>ModalYesNoDialog example. Reload to see the example</span>
+            }
 
             <ModalYesNoDialog isVisible={isVisible} title="test" description="this is a test" firstButtonText="Ok" firstButtonEventHandler={firstButtonEventHandler} secondButtonText="Cancel" secondButtonEventHandler={secondButtonEventHandler} />
         </span>
