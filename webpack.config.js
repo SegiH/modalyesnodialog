@@ -3,6 +3,11 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: { main: './src/index.js' },
+  mode: "development",
+  target: 'web',
+  resolve: {
+    extensions: ['.ts', '.tsx', '.js', '.css', '.png'],
+  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.js'
