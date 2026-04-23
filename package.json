@@ -19,17 +19,20 @@
     "babel": "babel src --mode production -d lib -s --ignore .eslintrc.js"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
     "@babel/core": "^7.28.4",
     "@babel/preset-env": "^7.28.3",
-    "@babel/cli": "^7.0.0",
     "@babel/preset-react": "^7.27.1",
-    "babel-loader": "^8.4.1",
-    "html-webpack-plugin": "^4.5.2",
     "ajv": "^8.18.0",
+    "babel-loader": "^8.4.1",
     "babel-preset-env": "^0.0.0",
+    "html-webpack-plugin": "^4.5.2",
     "rimraf": "^2.7.1",
-    "webpack": "^5.105.4",
-    "webpack-cli": "^6.0.1",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
     "webpack-dev-server": "^5.2.3"
+  },
+  "overrides": {
+    "uuid": "^9.0.0"
   }
 }
