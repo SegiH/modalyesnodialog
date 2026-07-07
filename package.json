@@ -28,9 +28,9 @@
     "babel-preset-env": "^0.0.0",
     "html-webpack-plugin": "^4.5.2",
     "rimraf": "^2.7.1",
-    "webpack": "^5.106.2",
-    "webpack-cli": "^7.0.2",
-    "webpack-dev-server": "^5.2.3"
+    "webpack": "^5.108.4",
+    "webpack-cli": "^7.2.1",
+    "webpack-dev-server": "^6.0.0"
   },
   "overrides": {
     "uuid": "^9.0.0"
